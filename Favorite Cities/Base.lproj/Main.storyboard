@@ -81,6 +81,12 @@
                     </view>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="City Detail" id="mOI-FS-AaM"/>
+                    <connections>
+                        <outlet property="cityTextField" destination="xN8-ro-YC5" id="KPt-YB-2be"/>
+                        <outlet property="imageView" destination="72b-89-lGL" id="d0G-e8-O2w"/>
+                        <outlet property="populationTextField" destination="piX-pu-cz3" id="G0b-HR-tdT"/>
+                        <outlet property="stateTextField" destination="HXg-iV-4vz" id="erJ-JQ-fEO"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FJe-Yq-33r" sceneMemberID="firstResponder"/>
             </objects>
